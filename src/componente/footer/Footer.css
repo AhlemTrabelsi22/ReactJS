@@ -1,0 +1,10 @@
+/* Footer.css */
+.footer {
+  background-color: #f8f9fa; /* Couleur de fond */
+  text-align: center; /* Centrer le texte */
+  padding: 20px; /* Espacement */
+  position: relative; /* Pour gérer la position */
+  bottom: 0; /* Fixer le footer en bas */
+  width: 100%; /* Prendre toute la largeur */
+  color: #333; /* Couleur du texte */
+}
