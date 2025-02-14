@@ -9,6 +9,7 @@ import Ex2 from "./componente/Ex2";
 import ColorBox from "./componente/ColorBox";
 import NotesManager from "./componente/NotesManager";
 import TodoList from "./componente/TodoList ";
+import Events from "./componente/Events";
 
 
 
@@ -35,7 +36,7 @@ function App() {
 
        < TodoList initialTasks={[{ name: 'Finir le projet React', priority: 'Haute', completed: false }]}/>
   
-
+<Events/>
    
       <Footer />
      
