@@ -1,13 +1,13 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
-import placeholder from "componente/assets/images/placeholder.jpg";
+// import placeholder from "componente/assets/images/placeholder.jpg";
 
 function Event({ event, handleClick, handleLike }) {
     const images = import.meta.glob("../assets/images/*", { eager: true });
 
-    const getImagePath = (img) => {
-        return images[`../assets/images/${img}`]?.default || placeholder;
-    };
+    // const getImagePath = (img) => {
+    //     return images[`../assets/images/${img}`]?.default || placeholder;
+    // };
 
     return (
         <Card style={{ width: "18rem", margin: "10px" }}>
